@@ -13,7 +13,7 @@ services:
       - "82:80"
   digital-app:
     image: muralisocial123/digital-bank:1.1.0
-    container_name: digi-app
+    container_name: digital-app
     ports:
       - "4546:4545"
   cart-app:
